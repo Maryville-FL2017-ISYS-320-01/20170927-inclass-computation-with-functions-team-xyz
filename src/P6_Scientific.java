@@ -1,14 +1,18 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Bradley Higdon, Jordan Poertner, Alex Hummel
+	Date: 9/27/17
 */
 
 public class P6_Scientific {
 
 	public static void main(String[] args) {
-		// REMINDER: Any print statements should only be in the main method
+		System.out.print((int) computeScientificValue(6.5, 3));
 
 	}
 
+	private static double computeScientificValue(double base, int expo) {
+		return base * Math.pow(10, expo);
+
+	}
 }
